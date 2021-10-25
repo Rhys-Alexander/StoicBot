@@ -171,7 +171,7 @@ def chat():
                     responses = block["responses"]
                     break
 
-            print("StoicBot:", random.choice(responses), "\n")
+            print(f"StoicBot ({tag}) :", random.choice(responses), "\n")
         else:
             print("StoicBot: ", random.choice(quotes), "\n")
 
