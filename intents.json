@@ -11,73 +11,167 @@
         "Whats up",
         "hey"
       ],
-      "responses": [
-        "Hello!",
-        "Good to see you again!",
-        "Hi there, how can I help?"
-      ],
+      "responses": ["Hello!", "Good to see you!", "Hi, what's on your mind?"],
       "context_set": ""
     },
     {
       "tag": "goodbye",
       "patterns": [
-        "cya",
         "See you later",
         "Goodbye",
         "I am Leaving",
         "Have a Good day"
       ],
-      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "responses": ["Have a peaceful day. Type quit to leave."],
       "context_set": ""
     },
     {
-      "tag": "age",
+      "tag": "Life",
       "patterns": [
-        "how old",
-        "how old is tim",
-        "what is your age",
-        "how old are you",
-        "age?"
-      ],
-      "responses": ["I am 18 years old!", "18 years young!"],
-      "context_set": ""
-    },
-    {
-      "tag": "name",
-      "patterns": [
-        "what is your name",
-        "what should I call you",
-        "whats your name?"
+        "I keep thinking about death",
+        "what's the meaning of life?",
+        "Everything feels meaningless",
+        "life is pointless",
+        "I hate my life",
+        "I feel depressed",
+        "I am sad",
+        "I want to die",
+        "I feel suicidal",
+        "I worry about death"
       ],
       "responses": [
-        "You can call me Tim.",
-        "I'm Tim!",
-        "I'm Tim aka Tech With Tim."
+        "Life is long if you know how to use it.",
+        "Living is the least important activity of the preoccupied man; yet there is nothing which is harder to learn.",
+        "It is not that we have a short time to live, but that we waste a lot of it. Life is long enough, and a sufficiently generous amount has been given to us for the highest achievements if it were all well invested.",
+        "So it is: we are not given a short life but we make it short, and we are not ill-supplied but wasteful of it.",
+        "But learning how to live takes a whole life, and, which may surprise you more, it takes a whole life to learn how to die.",
+        "Indifference to external events. And a commitment to justice in your own acts. Which means: thought and action resulting in the common good. What you were born to do.",
+        "When you wake up in the morning, tell yourself: The people I deal with today will be meddling, ungrateful, arrogant, dishonest, jealous, and surly. They are like this because they can’t tell good from evil. But I have seen the beauty of good, and the ugliness of evil, and have recognized that the wrongdoer has a nature related to my own—not of the same blood or birth, but the same mind, and possessing a share of the divine.",
+        "Mastery of reading and writing requires a master. Still more so life.",
+        "At dawn, when you have trouble getting out of bed, tell yourself: ‘I have to go to work—as a human being. What do I have to complain of, if I’m going to do what I was born for— the things I was brought into the world to do? Or is this what I was created for? To huddle under the blankets and stay warm?",
+        "You don’t love yourself enough. Or you’d love your nature too, and what it demands of you. People who love what they do wear themselves down doing it, they even forget to wash or eat.",
+        "Perfection of character: to live your last day, every day, without frenzy, or sloth, or pretense.",
+        "To move from one unselfish action to another with God in mind. Only there, delight and stillness.",
+        "Be satisfied with even the smallest progress, and treat the outcome of it all as unimportant.",
+        "You see how few things you have to do to live a satisfying and reverent life? If you can manage this, that’s all even the gods can ask of you.",
+        "Think of yourself as dead. You have lived your life. Now take what’s left and live it properly."
       ],
       "context_set": ""
     },
     {
-      "tag": "shop",
+      "tag": "Time",
       "patterns": [
-        "Id like to buy something",
-        "whats on the menu",
-        "what do you reccommend?",
-        "could i get something to eat"
+        "I waste all of my time",
+        "I don't stop procrastinating",
+        "What should I do with my time?",
+        "I waste my days away",
+        "Everyday feels the same",
+        "I've wasted my life",
+        "How do I stop procrastinating?",
+        "How can I be less busy?",
+        "I feel so busy",
+        "I don't have any time"
       ],
       "responses": [
-        "We sell chocolate chip cookies for $2!",
-        "Cookies are on the menu!"
+        "You will find no one willing to share out his money; but to how many does each of us divide up his life!",
+        "People are frugal in guarding their personal property; but as soon as it comes to squandering time they are most wasteful of the one thing in which it is right to be stingy.",
+        "How late it is to begin really to live just when life must end! How stupid to forget our mortality, and put off sensible plans to our fiftieth and sixtieth years, aiming to begin life from a point at which few have arrived!",
+        "You have been preoccupied while life hastens on. Meanwhile death will arrive, and you have no choice in making yourself available for that.",
+        "In short, know this: Human lives are brief and trivial. Yesterday a blob of semen; tomorrow embalming fluid, ash.",
+        "At dawn, when you have trouble getting out of bed, tell yourself: ‘I have to go to work—as a human being. What do I have to complain of, if I’m going to do what I was born for— the things I was brought into the world to do? Or is this what I was created for? To huddle under the blankets and stay warm?",
+        "‘If you seek tranquillity, do less.’ Or (more accurately) do what’s essential, what the logos of a social being requires, and in the requisite way. Which brings a double satisfaction: to do less, better. Because most of what we say and do is not essential. If you can eliminate it, you’ll have more time, and more tranquillity. Ask yourself at every moment, ‘Is this necessary?'",
+        "Forget everything else. Keep hold of this alone and remember it: Each of us lives only now, this brief instant. The rest has been lived already, or is impossible to see.",
+        "Think of yourself as dead. You have lived your life. Now take what’s left and live it properly."
       ],
       "context_set": ""
     },
     {
-      "tag": "hours",
+      "tag": "Burden",
       "patterns": [
-        "when are you guys open",
-        "what are your hours",
-        "hours of operation"
+        "I feel weighed down",
+        "I have a weight on my shoulders",
+        "I'm under so much stress",
+        "I can't relax",
+        "I have so much to do",
+        "I find it hard to breathe",
+        "I'm stressed",
+        "I can't sleep",
+        "I can't rest",
+        "My mind is never relaxed"
       ],
-      "responses": ["We are open 7am-4pm Monday-Friday!"],
+      "responses": [
+        "It does not matter how much time we are given if there is nowhere for it to settle; it escapes through the cracks and holes of the mind.",
+        "So it is inevitable that life will be not just very short but very miserable for those who acquire by great toil what they must keep by greater toil.",
+        "If you regard only that which is your own as being your own, and that which isn’t your own as not being your own (as is indeed the case), no one will ever be able to coerce you, no one will hinder you, you’ll find fault with no one, you’ll accuse no one, you’ll do nothing whatever against your will, you’ll have no enemy, and no one will ever harm you because no harm can affect you.",
+        "For it is better to die of hunger, but free from distress and fear, than to live in plenty with a troubled mind.",
+        "In things relating to the body, take only as much as your bare need requires, with regard to food, for instance, or drink, clothes, housing … exclude everything that is for show or luxury.",
+        "To watch the courses of the stars as if you revolved with them. To keep constantly in mind how the elements alter into one another. Thoughts like this wash off the mud of life below.",
+        "People try to get away from it all—to the country, to the beach, to the mountains. You always wish that you could too. Which is idiotic: you can get away from it anytime you like. By going within. Nowhere you can go is more peaceful—more free of interruptions—than your own soul.",
+        "People who labor all their lives but have no purpose to direct every thought and impulse toward are wasting their time—even when hard at work.",
+        "You don’t love yourself enough. Or you’d love your nature too, and what it demands of you. People who love what they do wear themselves down doing it, they even forget to wash or eat.",
+        "The things you think about determine the quality of your mind. Your soul takes on the color of your thoughts.",
+        "The mind in itself has no needs, except for those it creates itself. Is undisturbed, except for its own disturbances. Knows no obstructions, except those from within.",
+        "I can control my thoughts as necessary; then how can I be troubled? What is outside my mind means nothing to it. Absorb that lesson and your feet stand firm. You can return to life. Look at things as you did before. And life returns.",
+        "The impediment to action advances action. What stands in the way becomes the way."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fear",
+      "patterns": [
+        "I'm afraid",
+        "I feel anxious",
+        "I'm really worried",
+        "I fear for things",
+        "I can't stop worrying",
+        "I'm so afraid of things",
+        "My anxiety is crippling",
+        "Fear, worry, and anxiety take over me",
+        "There's so much to worry about",
+        "Things keep me up at night"
+      ],
+      "responses": [
+        "But putting things off is the biggest waste of life: it snatches away each day as it comes, and denies us the present by promising the future. The greatest obstacle to living is expectancy, which hangs upon tomorrow and loses today. You are arranging what lies in Fortune’s control, and abandoning what lies in yours. What are you looking at? To what goal are you straining? The whole future lies in uncertainty: live immediately.",
+        "Everyone hustles his life along, and is troubled by a longing for the future and weariness of the present. But the man who spends all his time on his own needs, who organizes every day as though it were his last, neither longs for nor fears the next day.",
+        "You act like mortals in all that you fear, and like immortals in all that you desire.",
+        "Don’t seek that all that comes about should come about as you wish, but wish that everything that comes about should come about just as it does, and then you’ll have a calm and happy life.",
+        "To love only what happens, what was destined. No greater harmony.",
+        "For there is a single harmony. Just as the world forms a single body comprising all bodies, so fate forms a single purpose, comprising all purposes.",
+        "No one can keep you from living as your nature requires. Nothing can happen to you that is not required by Nature.",
+        "At dawn, when you have trouble getting out of bed, tell yourself: ‘I have to go to work—as a human being. What do I have to complain of, if I’m going to do what I was born for— the things I was brought into the world to do? Or is this what I was created for? To huddle under the blankets and stay warm?",
+        "It can ruin your life only if it ruins your character. Otherwise it cannot harm you—inside or out.",
+        "The mind without passions is a fortress. No place is more secure. Once we take refuge there we are safe forever. Not to see this is ignorance. To see it and not seek safety means misery.",
+        "Objective judgment, now, at this very moment. Unselfish action, now, at this very moment. Willing acceptance—now, at this very moment—of all external events. That’s all you need.",
+        "External things are not the problem. It’s your assessment of them. Which you can erase right now."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Control",
+      "patterns": [
+        "I'm losing control",
+        "Everything feels out of my control",
+        "I can't let go",
+        "I feel so angry",
+        "I'm filled with rage",
+        "I can't control myself",
+        "I shout at people",
+        "I have no temperence",
+        "There's nothing I can do",
+        "No one understands"
+      ],
+      "responses": [
+        "Remember that you’re an actor in a play, which will be as the author chooses, short if he wants it to be short, and long if he wants it to be long. If he wants you to play the part of a beggar, act even that part with all your skill; and likewise if you’re playing a cripple, an official, or a private citizen. For that is your business, to act the role that is assigned to you as well as you can; but it is another’s part to select that role.",
+        "…don’t look to what he is doing, but to what you must do if you are to keep your choice in harmony with nature. For no one will cause you harm if you don’t wish it; you’ll have been harmed only when you suppose that you’ve been harmed.",
+        "But for me every omen is favourable for I want it to be so; for whatever may come about, it is within my power to derive benefit from it.",
+        "It isn’t the things themselves that disturb people, but the judgements that they form about them.",
+        "Disease is an impediment to the body, but not to choice, unless choice wills it to be so. Lameness is an impediment to the leg, but not to choice. And tell yourself the same with regard to everything that happens to you; for you’ll find that it acts as an impediment to something else, but not to yourself.",
+        "If you want to make progress, put up with being thought foolish and silly with regard to external things, and don’t even wish to give the impression of knowing anything about them.",
+        "He does only what is his to do, and considers constantly what the world has in store for him—doing his best, and trusting that all is for the best. For we carry our fate with us —and it carries us.",
+        "That things have no hold on the soul. They stand there unmoving, outside it. Disturbance comes only from within—from our own perceptions.",
+        "Choose not to be harmed—and you won’t feel harmed. Don’t feel harmed and you haven’t been.",
+        "To bear in mind constantly that all of this has happened before. And will happen again—the same plot from beginning to end, the identical staging. Produce them in your mind, as you know them from experience or from history…All just the same. Only the people different."
+      ],
       "context_set": ""
     }
   ]
